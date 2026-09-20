@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# Data — stored on cloud, not in git
+/data/*
+#!/data/.gitkeep
+#!/data/ismcts_experiences/
+#!/data/ismcts_experiences/*
+#!/data/ismcts_experiences/.gitkeep
+#!/data/ismcts_experiences.tar.zst
+
+# Models — stored on Hugging Face, not in git
+# /models/
+# !/models/.gitkeep
+
+# Colab
+*.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
